@@ -1,7 +1,7 @@
 package io.camunda.dto;
 
 import io.camunda.connector.api.document.Document;
-import io.camunda.connector.generator.dsl.Property;
+import io.camunda.connector.generator.java.annotation.FeelMode;
 import io.camunda.connector.generator.java.annotation.TemplateProperty;
 import jakarta.validation.constraints.*;
 import java.util.List;
@@ -19,7 +19,7 @@ public class PdfConnectorRequest {
             group = "operation",
             label = "PDF Documents",
             description = "List of PDF documents to merge (in order)",
-            feel = Property.FeelMode.required,
+            feel = FeelMode.required,
             type = TemplateProperty.PropertyType.String
         )
         @NotNull @NotEmpty
@@ -43,7 +43,7 @@ public class PdfConnectorRequest {
             group = "operation",
             label = "PDF Document",
             description = "The PDF document to split",
-            feel = Property.FeelMode.required,
+            feel = FeelMode.required,
             type = TemplateProperty.PropertyType.String
         )
         @NotNull
@@ -76,7 +76,7 @@ public class PdfConnectorRequest {
             group = "operation",
             label = "PDF Document",
             description = "The PDF document to split",
-            feel = Property.FeelMode.required,
+            feel = FeelMode.required,
             type = TemplateProperty.PropertyType.String
         )
         @NotNull
@@ -87,7 +87,7 @@ public class PdfConnectorRequest {
             group = "operation",
             label = "Page Ranges",
             description = "Comma-separated page ranges (e.g., '1-3,5-7,10-15'). Pages are 1-indexed.",
-            feel = Property.FeelMode.optional
+            feel = FeelMode.optional
         )
         @NotBlank
         String pageRanges,
@@ -110,7 +110,7 @@ public class PdfConnectorRequest {
             group = "operation",
             label = "PDF Document",
             description = "The PDF document to split by bookmarks",
-            feel = Property.FeelMode.required,
+            feel = FeelMode.required,
             type = TemplateProperty.PropertyType.String
         )
         @NotNull
@@ -143,7 +143,7 @@ public class PdfConnectorRequest {
             group = "operation",
             label = "PDF Document",
             description = "The PDF document to split by size",
-            feel = Property.FeelMode.required,
+            feel = FeelMode.required,
             type = TemplateProperty.PropertyType.String
         )
         @NotNull

@@ -23,8 +23,8 @@ In many IDP (Intelligent Document Processing) scenarios, users deal with scanned
 This connector uses the **Operations API** approach with `OutboundConnectorProvider`, allowing multiple PDF operations within a single connector without manual routing.
 
 **Key Technologies:**
-- Apache PDFBox 3.0.3 for PDF manipulation
-- Camunda Connector SDK 8.8.3
+- Apache PDFBox 3.0.7 for PDF manipulation
+- Camunda Connector SDK 8.9.1
 - Java 21
 
 **Operations Implementation:** [`io.camunda.example.operations.PdfConnectorProvider`](src/main/java/io/camunda/example/operations/PdfConnectorProvider.java)
@@ -428,6 +428,15 @@ The generation is embedded in the Maven build and can be triggered by running `m
 The generated element template can be found in [element-templates/pdf-connector.json](./element-templates/pdf-connector.json).
 
 ## Release Notes
+
+**Version 1.4.0**
+
+Changes:
+- ✅ **Camunda 8.9** - Upgraded Connector SDK and `camunda-process-test-spring` to `8.9.1` to match the latest stable cluster
+- ✅ **Docker** - Base image bumped to `camunda/connectors:8.9.1`
+- ✅ **PDFBox** - Upgraded to `3.0.7` (patch-level)
+- ✅ **Test stack** - JUnit Jupiter `5.14.4`, AssertJ `3.27.7`, Mockito `5.23.0`, Awaitility `4.3.0`
+- ✅ **Build plugins** - JaCoCo `0.8.14`, maven-shade-plugin `3.6.2`, maven-surefire-plugin `3.5.5`
 
 **Version 1.3.1**
 
