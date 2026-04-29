@@ -14,7 +14,7 @@ import static io.camunda.process.test.api.assertions.ElementSelectors.byName;
  * Integration test for PDF Merge & Split Connector.
  * Tests the connector in a full Camunda runtime environment.
  * 
- * NOTE: This test requires Docker to be running and will pull camunda/camunda:8.8.3 image.
+ * NOTE: This test requires Docker to be running and will pull camunda/camunda:8.9.1 image.
  * Disabled by default for faster builds. Enable when Docker is available.
  */
 @Disabled("Requires Docker - enable manually when needed")
