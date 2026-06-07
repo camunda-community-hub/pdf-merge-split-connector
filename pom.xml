@@ -21,7 +21,7 @@
     <version.junit-jupiter>6.0.3</version.junit-jupiter>
     <version.awaitility>4.3.0</version.awaitility>
     <version.mockito>5.23.0</version.mockito>
-    <jacoco.version>0.8.14</jacoco.version>
+    <jacoco.version>0.8.15</jacoco.version>
   </properties>
 
   <dependencies>
