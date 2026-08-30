@@ -16,7 +16,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <version.connectors>8.9.1</version.connectors>
     <version.camunda>8.9.1</version.camunda>
-    <version.pdfbox>3.0.7</version.pdfbox>
+    <version.pdfbox>3.0.8</version.pdfbox>
     <version.assertj>3.27.7</version.assertj>
     <version.junit-jupiter>6.0.3</version.junit-jupiter>
     <version.awaitility>4.3.0</version.awaitility>
