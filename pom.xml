@@ -14,7 +14,7 @@
     <maven.compiler.release>21</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <version.connectors>8.9.1</version.connectors>
+    <version.connectors>8.9.9</version.connectors>
     <version.camunda>8.9.1</version.camunda>
     <version.pdfbox>3.0.7</version.pdfbox>
     <version.assertj>3.27.7</version.assertj>
