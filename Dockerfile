@@ -1,4 +1,4 @@
-FROM camunda/connectors:8.9.1
+FROM camunda/connectors:8.9.10
 
 # Connector JARs go in /opt/custom/ (loader.path for Spring Boot PropertiesLauncher).
 # In 8.8.x and earlier, /opt/app/ worked; the 8.9.x base image changed this.
